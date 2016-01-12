@@ -74,7 +74,7 @@ $ps-bar-hover: #999;
 
   >.ps-scrollbar-x-rail {
     @include scrollbar-rail-default;
-    bottom: 3px; /* there must be 'bottom' for ps-scrollbar-x-rail */
+    bottom: 0; /* there must be 'bottom' for ps-scrollbar-x-rail */
     height: 8px;
 
     >.ps-scrollbar-x {
@@ -86,7 +86,7 @@ $ps-bar-hover: #999;
 
   >.ps-scrollbar-y-rail {
     @include scrollbar-rail-default;
-    right: 3px; /* there must be 'right' for ps-scrollbar-y-rail */
+    right: 0; /* there must be 'right' for ps-scrollbar-y-rail */
     width: 8px;
 
     >.ps-scrollbar-y {
